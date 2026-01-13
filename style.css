@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #f39c12;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    text-align: right;
+    max-width: 1300px;
+    
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    color: #f39c12;
+}
+
+.hero p {
+    margin: 10px 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 20px;
+    background: #f39c12;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 40px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.section.dark {
+    background-color: #111;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    padding: 8px 15px;
+    border: 1px solid #f39c12;
+    border-radius: 20px;
+}
+
+/* PROJECTS */
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    font-size: 14px;
+}
